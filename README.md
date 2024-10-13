@@ -6,13 +6,15 @@
 
 VRBro Plugin is an OBS Studio plugin designed to bridge the gap between virtual reality and content creation. 
 It works in tandem with a SteamVR overlay application to provide seamless control of OBS Studio directly from within VR.
+This plugin was built with multi-PC streaming setups in mind ([refer bellow](#Usage)). 
 
 ## Installation
 
 1. Download the latest release of the VRBro Plugin from the [Releases](https://github.com/99oblivius/VRBro-plugin/releases) page.
 2. Run the installer or extract the contents of the zip file to your OBS Studio plugins folder:
    - Windows: `C:\Program Files\obs-studio\`
-   - Linux: Depending on your distro and your OBS Studio installation method, you will have to place the unziped `/share/obs/obs-plugins/vrbro/` folder and the `/lib/x86_64-linux-gnu/obs-plugins/vrbro.so` file in different places. On an Arch system where OBS Studio was compiled and installed manually, `/usr/lib/obs-plugins/` and `/usr/share/obs/obs-plugins/` will be your folders of interest. 
+   - Linux: Differing OBS Studio installation methods will have different installation paths.  
+*e.g.* On an Arch system where OBS Studio was compiled and installed manually, `/usr/lib/obs-plugins/` and `/usr/share/obs/obs-plugins/` will be your folders of interest. 
 3. Restart OBS Studio.
 
 ## GUI
@@ -41,11 +43,12 @@ It works in tandem with a SteamVR overlay application to provide seamless contro
 
 ## Usage
 
-1. Launch OBS with VRBro plugin installed 
-   a. (Help -> Log Files -> View Current Log) To verify the server is running successfully if issues arise. 
-2. Launch SteamVR.
-3. Launch VRBro Overlay.
-4. Use your VR controller bindings to send commands to OBS.
+1. Launch OBS with VRBro plugin installed  
+   a. (Help -> Log Files -> View Current Log) To verify the server is running successfully if issues arise.  
+   b. Optionally set listen address to 0.0.0.0 to receive commands from another computer running the overlay. Simply configure the overlay's host IP to point to your streaming computer, and update your firewall approprietly.
+3. Launch SteamVR.
+4. Launch VRBro Overlay.
+5. Use your VR controller bindings to send commands to OBS.
 
 ## Supported Commands
 
