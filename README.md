@@ -11,9 +11,8 @@ It works in tandem with a SteamVR overlay application to provide seamless contro
 
 1. Download the latest release of the VRBro Plugin from the [Releases](https://github.com/99oblivius/VRBro-plugin/releases) page.
 2. Run the installer or extract the contents of the zip file to your OBS Studio plugins folder:
-   - Windows: `C:\Program Files\obs-studio\obs-plugins\64bit\`
-   - macOS: `/Applications/OBS.app/Contents/PlugIns/`
-   - Linux: `/usr/lib/obs-plugins/` or `~/.obs-studio/plugins/`
+   - Windows: `C:\Program Files\obs-studio\`
+   - Linux: Depending on your distro and your OBS Studio installation method, you will have to place the unziped `/share/obs/obs-plugins/vrbro/` folder and the `/lib/x86_64-linux-gnu/obs-plugins/vrbro.so` file in different places. On an Arch system where OBS Studio was compiled and installed manually, `/usr/lib/obs-plugins/` and `/usr/share/obs/obs-plugins/` will be your folders of interest. 
 3. Restart OBS Studio.
 
 ## GUI
