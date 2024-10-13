@@ -45,7 +45,7 @@ This plugin was built with multi-PC streaming setups in mind ([refer bellow](#Us
 
 1. Launch OBS with VRBro plugin installed  
    a. (Help -> Log Files -> View Current Log) To verify the server is running successfully if issues arise.  
-   b. Optionally set listen address to 0.0.0.0 to receive commands from another computer running the overlay. Simply configure the overlay's host IP to point to your streaming computer, and update your firewall approprietly.
+   b. Optionally set listen address to 0.0.0.0 to receive commands from another computer running the overlay. Simply configure the overlay's host IP to point to your streaming computer, and create a firewall rule on your streaming computer to allow the port (*default: 33390*) through.
 3. Launch SteamVR.
 4. Launch VRBro Overlay.
 5. Use your VR controller bindings to send commands to OBS.
