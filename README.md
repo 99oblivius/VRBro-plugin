@@ -21,7 +21,7 @@ This plugin was built with multi-PC streaming setups in mind ([refer bellow](#Us
 2. Run the installer or extract the contents of the zip file to your OBS Studio plugins folder:
    - Windows: `C:\Program Files\obs-studio\`
    - Linux: Differing OBS Studio installation methods will have different installation paths.  
-*e.g.* On an Arch system where OBS Studio was compiled and installed manually, `/usr/lib/obs-plugins/` and `/usr/share/obs/obs-plugins/` will be your folders of interest. 
+*e.g.* On an Arch system where OBS Studio was compiled and installed manually, `/usr/lib/obs-plugins/` and `/usr/share/obs/obs-plugins/` will be your folders of interest. `~/.config/obs-studio/plugins` is another valid path.
 3. Restart OBS Studio.
 
 ## Usage
